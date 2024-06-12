@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Add Farmer</title>
+</head>
+
+<body style="background-image: url(images/backgroundimg.jpg);
+            background-size: position; background-position: side center; background-repeat: no-repeat;
+            background-attachment: fixed;">
+    <div id="header">
+        <div>
+            <img src="images/logo.png" id="logo"></img>
+            <h1 id="heading2">Add Farmer</h1>
+        </div>
+    </div>
+    <script>
+        function goToHomePage() {
+            window.location.href = "index.php"; // Change "index.php" to the path of your home page
+        }
+    </script>
+
+    <!-- Adding Form -->
+
+    <div id="adding-form">
+        <form action="addfarmer.php" method="POST" class="forms">
+            <label for="Name" class="labels">Name :</label>
+            <input type="text" class="inputfield" name="f_name" required><br><br>
+            <label for="mobile" class="labels">Mobile :</label>
+            <input type="tel" class="inputfield" name="f_mob" required><br><br>
+            <label for="account" class="labels">Ac Number :</label>
+            <input type="text" class="inputfield" name="f_acc" required><br><br>
+            <label for="address" class="labels">Address :</label>
+            <textarea class="inputfieldarea" name="f_addr" required style="margin-left: 15%; font-size: 15px;"></textarea><br><br>
+            <label for="email" class="labels">Email ID :</label><br>
+            <input type="email" class="inputfield" name="f_email" required><br><br>
+            <label for="aadhar" class="labels">Aadhar :</label>
+            <input type="text" class="inputfield" name="f_adhar" required><br>
+            <button type="submit" class="buttons" style="background-color: green; font-size: 20px; color: white;">Submit</button>
+            <button type="reset" class="buttons" style="background-color: red; font-size: 20px; color: white;">Clear</button>
+        </form>
+        <button type="button" class="buttons" onclick="goToHomePage()" style="background-color: rgb(17, 12, 86); font-size: 20px; color: white; margin-left: 40%; margin-top: 2px;">Back</button>
+    </div>
+</body>
+
+</html>

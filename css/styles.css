@@ -1,0 +1,174 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(images/backgroundimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#header{
+    height: 100px;
+    background-color: rgb(35, 37, 47);
+}
+
+#logo{
+    height: 80px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10%;
+    display: inline;
+}
+
+#heading2{
+    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    display: inline;
+}
+#heading{
+    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(34, 16, 16);
+    display: inline;
+}
+
+.cardalign{
+    display: inline-block;
+}
+.billcard{
+    height: 80px;
+    width: 315px;
+    border: 1px solid;
+    border-radius: 30px;
+    margin-left: 250px;
+    margin-top: 80px;
+    background-color: gray;
+    
+}
+#card{
+    height: 120px;
+    width: 350px;
+    border: 1px solid;
+    border-radius: 30px;
+    padding-top: 7px;
+    margin-left: 110px;
+    margin-top: 120px;
+    background-color: rgb(30, 29, 29);
+   
+    
+}
+#name{
+    margin-top: 25px;
+    margin-left: 85px;
+    font-size: 35px;
+    color: white;
+    
+}
+
+
+/* Code for Add-farmer */
+
+.labels{
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+.inputfield{
+    font-size:  15px;
+    padding: 7px;
+    height:  20px;
+    width: 80%;
+    margin-left:15%;
+    border:0;
+    border-bottom: 1px solid rgb(209, 197, 197);
+    background-color: rgb(192, 219, 226);
+}
+
+.inputfieldarea{
+    border: 0;
+    border-bottom: 1px solid rgb(21, 19, 19);
+    background-color: rgb(190, 240, 244);
+    height: 50px;
+    width : 80%;
+    margin-left: 15%;
+}
+
+.forms{
+    height: 550px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 30px;
+    border : 1px solid;
+    border-radius: 5px;
+    background-color: rgb(9, 76, 73);
+    color:white;
+}
+
+.buttons{
+    height: 40px;
+    width: 180px;
+    background-color: green;
+    border-radius: 5px;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.datatable{
+    border:0.5px solid black;
+    height: 100%;
+    width: 85%;
+    padding: 1%;
+    margin: 0  auto;
+    margin-top: 20px;
+    color:rgb(246, 240, 240);
+    background-color:rgb(13, 99, 174);
+    text-align: center;
+
+    font-size: large;
+
+}
+td{
+    font-size: 25px;
+    color:white;
+
+}
+th{
+    font-size: 25px;
+    color:white;
+
+}
+tr{
+    margin:2%;
+    padding-bottom: 2%;
+}
+.tablebuttons{
+    height: 20px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+
+
+#ddlProducts{
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+  padding: 5px 40px 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+}

@@ -65,7 +65,7 @@
 </body>
 </html>
 <?php
-session_start(); // Start the session
+session_start(); // Start the session here.....
 
 // Database connection
 include('db_conn.php');
